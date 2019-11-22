@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  dijkstra_minimum_Value.cpp
+c:\users\lotte_test\source\repos\algorithmset_boj\dijkstra\dijkstra_minimum_value\dijkstra_minimum_value.cpp(23): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  dijkstra_minimum_Value.vcxproj -> C:\Users\lotte_test\source\repos\AlgorithmSet_BOJ\Debug\dijkstra_minimum_Value.exe

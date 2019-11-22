@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  dijkstra_injup_priority_queue.cpp
+c:\users\lotte_test\source\repos\algorithmset_boj\dijkstra\dijkstra_injup_priority_queue\dijkstra_injup_priority_queue.cpp(23): warning C4101: 'k' :참조되지 않은 지역 변수입니다.
+c:\users\lotte_test\source\repos\algorithmset_boj\dijkstra\dijkstra_injup_priority_queue\dijkstra_injup_priority_queue.cpp(23): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  dijkstra_injup_priority_queue.vcxproj -> C:\Users\lotte_test\source\repos\AlgorithmSet_BOJ\Debug\dijkstra_injup_priority_queue.exe

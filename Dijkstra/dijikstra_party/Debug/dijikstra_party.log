@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  dijikstra_party.cpp
+c:\users\lotte_test\source\repos\algorithmset_boj\dijkstra\dijikstra_party\dijikstra_party.cpp(27): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  dijikstra_party.vcxproj -> C:\Users\lotte_test\source\repos\AlgorithmSet_BOJ\Debug\dijikstra_party.exe
