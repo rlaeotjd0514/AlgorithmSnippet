@@ -9,6 +9,7 @@ int n, m;
 unsigned long long k;
 vector<string> arr[101][101];
 unsigned long long st[101][101];
+int ss;
 
 vector<string> r(int x, int y, unsigned long long s) {
     int xy = x + y;
@@ -21,6 +22,8 @@ vector<string> r(int x, int y, unsigned long long s) {
         for (int i = 0; i < rs; i++) {
             ret[i][rs - i - 1] = '1';
         }
+        //cout << s << "\n";
+        ss = s;
         return arr[x][y] = ret;
     }
     if (y == 1) {
@@ -31,13 +34,15 @@ vector<string> r(int x, int y, unsigned long long s) {
         for (int i = 0; i < rs; i++) {
             ret[i][i] = '0';
         }
+        //cout << s << "\n";
+        ss = s;
         return arr[x][y] = ret;
     }
-    unsigned long long standard = st[x - 1][y];
+    unsigned long long standard = st[x][y - 1];
     vector<string> bs1;
     vector<string> bs2;
     vector<string> ret;
-    if (standard <= s) {
+    if (standard < s) {
         bs1 = r(x - 1, y, s - standard);
         int bc1 = bs1.size();
         for (int i = 0; i < bc1; i++) {
@@ -75,9 +80,16 @@ int main()
         return 0;
     }
     ret = r(n, m, k);
-    int rs = ret.size();
-    for (char c : ret[k % rs]) {
-        cout << (c == '0' ? 'a' : 'z');
+    if (k < st[n][m - 1]) {
+        for (char c : ret[ss - 1]) {
+            cout << (c == '0' ? 'a' : 'z');
+        }
+        return 0;
     }
-    return 0;
+    else {
+        for (char c : ret[ss - 1]) {
+            cout << (c == '0' ? 'a' : 'z');
+        }
+        return 0;
+    }
 }
