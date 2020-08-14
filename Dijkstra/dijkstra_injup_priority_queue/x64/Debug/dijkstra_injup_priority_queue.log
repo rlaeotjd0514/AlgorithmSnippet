@@ -1,1 +1,6 @@
-﻿
+﻿  Using triplet "x64-windows" from "C:\Users\dskim\Desktop\Side Dev\vcpkg\vcpkg\installed\x64-windows\"
+  pch.cpp
+  dijkstra_injup_priority_queue.cpp
+C:\Users\dskim\Desktop\Side Dev\AlgorithmSnippet\AlgorithmSnippet\Dijkstra\dijkstra_injup_priority_queue\dijkstra_injup_priority_queue.cpp(23,12): warning C4101: 'k' :참조되지 않은 지역 변수입니다.
+C:\Users\dskim\Desktop\Side Dev\AlgorithmSnippet\AlgorithmSnippet\Dijkstra\dijkstra_injup_priority_queue\dijkstra_injup_priority_queue.cpp(23,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  dijkstra_injup_priority_queue.vcxproj -> C:\Users\dskim\Desktop\Side Dev\AlgorithmSnippet\AlgorithmSnippet\x64\Debug\dijkstra_injup_priority_queue.exe

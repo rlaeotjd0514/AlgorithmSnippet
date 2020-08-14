@@ -1,1 +1,5 @@
-﻿
+﻿  Using triplet "x64-windows" from "C:\Users\dskim\Desktop\Side Dev\vcpkg\vcpkg\installed\x64-windows\"
+  pch.cpp
+  algotest2.cpp
+C:\Users\dskim\Desktop\Side Dev\AlgorithmSnippet\AlgorithmSnippet\Dijkstra\algotest2\algotest2.cpp(35,27): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  algotest2.vcxproj -> C:\Users\dskim\Desktop\Side Dev\AlgorithmSnippet\AlgorithmSnippet\x64\Debug\dijkstra_injup.exe
